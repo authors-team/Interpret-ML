@@ -1,0 +1,28 @@
+body {
+  padding-top: 65px;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #212B36;
+}
+p {
+  font-size: 14px;
+  color: #212B36;
+}
+
+.bd-footer {
+    text-align: right;
+}
+.bd-footer-links {
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
