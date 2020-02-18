@@ -1,28 +1,68 @@
+/*FONTS*/
+@font-face {
+  font-family: 'TT Commons Medium';
+  src: url('../fonts/TTCommons-Medium.woff');
+}
+@font-face {
+  font-family: 'TT Commons Bold';
+  src: url('../fonts/TTCommons-Bold.woff');
+}
+
 body {
   padding-top: 65px;
 }
 
 h1 {
-  font-size: 42px;
-  font-weight: 600;
-  color: #212B36;
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 64px;
+  line-height: 70px;
+  color: #FFFFFF;
 }
 p {
+  font-family: 'TT Commons Medium', Arial, sans-serif;
   font-size: 14px;
+  line-height: 20px;
   color: #212B36;
 }
 
-.bd-footer {
-    text-align: right;
+/*UNIVERSAL*/
+.masthead p {
+  color: #FFFFFF;
 }
-.bd-footer-links {
-    padding-left: 0;
-    margin-bottom: 1rem;
+
+/*NAVBAR*/
+.navbar{
+  background-color: white;
 }
-.container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.navbar li {
+  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-size: 14px;
+}
+.navbar li a {
+  color: #212B36;
+}
+.navbar-btn {
+  display: inline-block;
+  color: white !important;
+  background-color: #064EFE;
+  border-radius: 100px;
+  padding: 8px 26px;
+}
+
+/*MASTHEAD*/
+.masthead{
+  background: linear-gradient(235.22deg, #061058 0%, #3B4ED3 100%);
+}
+
+
+/*FOOTER*/
+.footer-nav {
+  list-style: none;
+  padding: 0px;
+}
+.footer-nav .nav-link {
+  padding: 8px 0px 8px 0px;
+}
+.page-footer {
+  background-color: #061058;
 }
