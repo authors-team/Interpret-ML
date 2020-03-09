@@ -79,8 +79,11 @@ p {
   display: inline-block;
   color: white !important;
   background-color: #064EFE;
-  border-radius: 100px;
-  padding: 8px 26px;
+  padding-top:10px;
+  padding-right:30px;
+  padding-left:30px;
+  padding-bottom:5px;
+  /*padding: 8px 26px;*/
 }
 .navbar .navbar-toggler .icon-bar {
     color: pink !important;
@@ -96,7 +99,6 @@ p {
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
-  border-radius: 100px;
   padding: 8px 26px;
 }
 .masthead-btn-transparent {
@@ -109,7 +111,22 @@ p {
   border-radius: 100px;
   padding: 8px 26px;
 }
+.triangle-svg {
+  bottom: 0;
+  width: 100%;
+  height: 14vw;
+  /* set height to pixels if you want angle to change with screen width */
+}
 
+/*WHAT IS INTERPRETABILITY IN AI*/
+.interpret-container{
+  position: relative;
+  z-index: 5000;
+  margin-top: -100px;
+}
+.inner-box {
+  background-color: white;
+}
 
 /*FOOTER*/
 .footer-nav {
