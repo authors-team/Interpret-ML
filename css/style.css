@@ -1,40 +1,55 @@
 /*FONTS*/
 @font-face {
-  font-family: 'TT Commons Medium';
-  src: url('../fonts/TTCommons-Medium.woff');
+  font-family: "TT Commons Regular";
+  src: url("../fonts/TypeType-TTCommonsRegular.woff") format("woff"),
+  url("../fonts/TypeType-TTCommonsRegular.otf") format("opentype");
 }
 @font-face {
-  font-family: 'TT Commons Bold';
-  src: url('../fonts/TTCommons-Bold.woff');
+  font-family: 'TT Commons Medium';
+  src: url("../fonts/TypeType-TTCommonsMedium.woff") format("woff"),
+       url("../fonts/TypeType-TTCommonsMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "TT Commons Bold";
+  src: url("../fonts/TypeType-TTCommonsBold.woff") format("woff"),
+       url("../fonts/TypeType-TTCommonsBold.otf") format("opentype");
 }
 
 body {
-  background: #E5E5E5;
+  background: #FFFFFF;
   padding-top: 53px;
 }
 
 h1 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 64px;
-  line-height: 70px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 48px;
   color: #FFFFFF;
 }
 h2 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 42px;
-  line-height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
   color: #061058;
 }
 h3 {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 34px;
-  line-height: 40px;
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
   color: #061058;
 }
 h4 {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 24px;
-  line-height: 30px;
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
   color: #061058;
 }
 h5 {
@@ -50,19 +65,35 @@ h6 {
   color: #061058;
 }
 p {
-  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  color: #212B36;
+  color: #FFFFFF;
+}
+li {
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #FFFFFF;
 }
 
 /*UNIVERSAL*/
-.gradient p {
+.dark {
+  color: #878C97;
+}
+.light{
   color: #FFFFFF;
 }
 .heading-light{
   color:white;
 }
+
 
 /*NAVBAR*/
 .navbar{
@@ -83,15 +114,52 @@ p {
   padding-right:30px;
   padding-left:30px;
   padding-bottom:5px;
-  /*padding: 8px 26px;*/
 }
 .navbar .navbar-toggler .icon-bar {
     color: pink !important;
 }
+.nav-logo{
+  width: 166px;
+  height: auto;
+}
 
-/*MASTHEAD*/
+/*UNDERSTAND YOUR MODELS*/
+li.icon-01 {
+background: url('../images/Icon-01.png') no-repeat left 0px;
+background-size: 30px 30px;
+padding-left: 50px;
+display: block;
+}
+li.icon-02 {
+background: url('../images/Icon-02.png') no-repeat left 0px;
+background-size: 30px 30px;
+padding-left: 50px;
+display: block;
+}
+li.icon-03 {
+background: url('../images/Icon-03.png') no-repeat left 0px;
+background-size: 30px 30px;
+padding-left: 50px;
+display: block;
+}
+li.icon-04 {
+background: url('../images/Icon-04.png') no-repeat left 0px;
+background-size: 30px 30px;
+padding-left: 50px;
+display: block;
+}
+li.icon-05 {
+background: url('../images/Icon-05.png') no-repeat left 0px;
+background-size: 30px 30px;
+padding-left: 50px;
+display: block;
+}
+
 .gradient{
   background: linear-gradient(235.22deg, #061058 0%, #3B4ED3 100%);
+}
+.gradient-2{
+  background: linear-gradient(263.39deg, #061058 0%, #3B4ED3 100%);
 }
 .masthead-btn {
   font-family: 'TT Commons Medium', Arial, sans-serif;
@@ -117,18 +185,84 @@ p {
   height: 14vw;
   /* set height to pixels if you want angle to change with screen width */
 }
+.masthead-icon {
+  width: 30px;
+  height: 30px;
+}
 
 /*WHAT IS INTERPRETABILITY IN AI*/
-.interpret-container{
+.what-is-interpret-ai{
   position: relative;
-  z-index: 5000;
-  margin-top: -100px;
+  /*z-index: 5000;*/
+  /*margin-top: -100px;*/
 }
-.inner-box {
+/*.inner-box {
   background-color: white;
+}*/
+.card{
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+  border: 0px solid rgba(0,0,0,.125);
+}
+.card-img-top{
+  display: block;
+  width:86px;
+  height: auto;
+}
+
+/*INTERPRET ML*/
+.interpretml-icons {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+/*GENERATING MODEL EXPLANATIONS*/
+.generating-model-icon{
+  display: block;
+  width: 220px;
+  height: auto;
+}
+.local-feature-icon{
+  display: block;
+  width: 176px;
+  height: auto;
+}
+.group-feature-icon{
+  display: block;
+  width: 180px;
+  height: auto;
+}
+
+/*INTERACTIVE VISUALIZATIONS*/
+.interactive-visualization-icon{
+  display: block;
+  width: 240px;
+  height: auto;
+}
+
+/*START UNDERSTANDING MODELS BEHAVIOR*/
+.models-behavior-btn {
+  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  color: #064EFE;
+  background-color: #FFFFFF;
+  padding: 8px 26px;
+}
+.models-behavior-btn-transparent {
+  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  padding: 8px 26px;
 }
 
 /*FOOTER*/
+.p-2{
+  color:#FFFFFF;
+}
 .footer-nav {
   list-style: none;
   padding: 0px;
@@ -138,4 +272,17 @@ p {
 }
 .page-footer {
   background-color: #061058;
+}
+.footer-btn-transparent {
+  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  padding: 8px 26px;
+}
+.footer-logo{
+  width:121px;
+  height: auto;
 }
