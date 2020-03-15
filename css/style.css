@@ -72,7 +72,7 @@ p {
   line-height: 20px;
   color: #FFFFFF;
 }
-li {
+.understand-your-models li {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -110,10 +110,8 @@ li {
   display: inline-block;
   color: white !important;
   background-color: #064EFE;
-  padding-top:10px;
-  padding-right:30px;
-  padding-left:30px;
-  padding-bottom:5px;
+  padding: 9px 0px;
+  width: 100px;
 }
 .navbar .navbar-toggler .icon-bar {
     color: pink !important;
@@ -154,7 +152,6 @@ background-size: 30px 30px;
 padding-left: 50px;
 display: block;
 }
-
 .gradient{
   background: linear-gradient(235.22deg, #061058 0%, #3B4ED3 100%);
 }
@@ -162,22 +159,13 @@ display: block;
   background: linear-gradient(263.39deg, #061058 0%, #3B4ED3 100%);
 }
 .masthead-btn {
-  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
-  padding: 8px 26px;
-}
-.masthead-btn-transparent {
-  font-family: 'TT Commons Medium', Arial, sans-serif;
-  font-size: 14px;
-  display: inline-block;
-  color: #FFFFFF;
-  background-color: transparent;
-  border: 1px solid #FFFFFF;
-  border-radius: 100px;
-  padding: 8px 26px;
+  padding: 9px 0px;
+  width: 120px;
 }
 .triangle-svg {
   bottom: 0;
@@ -240,47 +228,82 @@ display: block;
   height: auto;
 }
 
+.interactive-visualization li {
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: red;
+}
+
+li.check-icon {
+color: #878C97;
+background: url('../images/check-icon.png') no-repeat  0 5px;
+background-size: 13px 10px;
+padding-left: 25px;
+display: block;
+}
+
+/*.interactive-visualization li:before{
+  display: block;
+    
+    padding: 0 0 0 25px;
+    background-size: 13px 10px;
+    background:url('../images/check-icon.png') no-repeat left;
+}*/
+
 /*START UNDERSTANDING MODELS BEHAVIOR*/
 .models-behavior-btn {
-  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
-  padding: 8px 26px;
+  padding: 9px 0px;
+  margin: 0px 9px;
+  width: 120px;
 }
 .models-behavior-btn-transparent {
-  font-family: 'TT Commons Medium', Arial, sans-serif;
+  font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
   border: 1px solid #FFFFFF;
-  padding: 8px 26px;
+  padding: 9px 0px;
+  margin: 0px 9px;
+  width: 120px;
 }
 
 /*FOOTER*/
 .p-2{
   color:#FFFFFF;
 }
-.footer-nav {
+.footer-nav{
   list-style: none;
   padding: 0px;
 }
-.footer-nav .nav-link {
+.footer-nav .nav-link{
   padding: 8px 0px 8px 0px;
 }
-.page-footer {
+.page-footer{
   background-color: #061058;
 }
-.footer-btn-transparent {
+/*.page-footer p{
+  margin-bottom:0px;
+}*/
+.footer-btn-transparent{
   font-family: 'TT Commons Medium', Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
   border: 1px solid #FFFFFF;
-  padding: 8px 26px;
+  width: 100px;
+  padding: 9px 0px;
 }
 .footer-logo{
   width:121px;
