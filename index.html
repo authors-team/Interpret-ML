@@ -1,332 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Interpret-ML</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
+  	<head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <title>Interpret-ML</title>
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+  	</head>
   <body>
+
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <img class="img-fluid nav-logo" src="images/Nav-Logo.png" alt="">
-      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon icon-bar"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://microsoft.com">Section 01
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://microsoft.com">Section 02</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://microsoft.com">Section 03</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://microsoft.com">Section 04</a>
-          </li>
-          <li>
-            <a class="navbar-btn" href="https://microsoft.com">Github</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav><!-- Navigation -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+    	<div class="container">
+      		<img class="img-fluid nav-logo" src="images/Nav-Logo.png" alt="">
+      		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon icon-bar"></span>
+      		</button>
+      		<div class="collapse navbar-collapse" id="navbarResponsive">
+		        <ul class="navbar-nav ml-auto text-center">
+		          <li class="nav-item active">
+		            <a class="nav-link" href="https://microsoft.com">About InterrpretML
+		              <span class="sr-only">(current)</span>
+		            </a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="https://microsoft.com">Contribute</a>
+		          </li>
+		          <li>
+		            <a class="navbar-btn" href="https://microsoft.com">Github</a>
+		          </li>
+		        </ul>
+      		</div>
+    	</div>
+  	</nav><!-- Navigation -->
 
-  <!-- Page Content -->
-  <div class="container-fluid gradient diagonal understand-your-models">
-    <div class="container pt-lg-5 pb-lg-5">
-      <div class="row align-items-center pt-lg-5">
-        <div class="col-sm-12 col-lg-6 order-lg-1 text-center pt-5 pb-2 px-5">
-          <img class="img-fluid rounded" src="images/Main Graphic.png" alt="">
-        </div>
-        <div class="col-sm-12 col-lg-6 order-lg-0">
-          <h1 class="text-center text-md-left pb-4">Understand Your Models</h1>
-          <p class="text-center text-md-left pb-3">A toolkit for understanding and trusting models and modeling results that affect people's lives to explore questions like:</p>
-          <div class="row pb-3">
-            <div class="col-12 col-lg-6 pb-3">
-              <li class="img-fluid icon-01">What drives model predictions?</li>
-            </div>
-            <div class="col-12 col-lg-6 pb-3">
-              <li class="img-fluid icon-02">Why a model makes a certain decision?</li>
-            </div>
-            <div class="col-12 col-lg-6 pb-3">
-              <li class="img-fluid icon-03">How changing features affect model predictions?</li>
-            </div>
-            <div class="col-12 col-lg-6 pb-3">
-              <li class="img-fluid icon-04">How features interact to come up with model conclusions?</li>
-            </div>
-            <div class="col-12 col-lg-12">
-              <li class="img-fluid icon-05">What is the smallest change to the feature values that change the predictions to a predefined output?</li>
-            </div>
-          </div>
-        <div class="row">
-          <div class="col-sm-12 text-center text-md-left pb-5">
-            <a class="masthead-btn text-center" href="https://microsoft.com">Get Started</a>
-          </div>
-        </div>
-        </div>
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-    <div class="row">
-      <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon class="polygon" points="0,100 100,0 100,100"/>
-      </svg>
-    </div>
-  </div><!-- /.container-fluid -->
+  	<!-- MASTHEAD -->
+	<div class="container-fluid gradient understand-your-models">
+	    <div class="container pt-lg-5 pb-lg-5">
+	      <div class="row align-items-center pt-lg-5">
+	        <div class="col-sm-12 col-lg-6 order-lg-1 text-center pt-5 pb-2 px-5">
+	          <img class="img-fluid rounded" src="images/main-graphic.png" alt="">
+	        </div>
+	        <div class="col-sm-12 col-lg-6 order-lg-0">
+	          <h1 class="text-center text-md-left pb-4">Understand Models. Build responsibly.</h1>
+	          <p class="text-center text-md-left pb-3">A toolkit to help understand models and enable responsible machine learning</p>
+	        <div class="row">
+	          <div class="col-sm-12 text-center text-md-left pb-5">
+	            <a class="masthead-btn text-center" href="https://microsoft.com">Get Started</a>
+	          </div>
+	        </div>
+	        </div>
+	      </div><!-- /.row -->
+		</div><!-- /.container -->
+	    <div class="row">
+	      <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+	        <polygon class="polygon" points="0,100 100,0 100,100"/>
+	      </svg>
+	    </div>
+  	</div><!-- /.container-fluid -->
+
+  	<div class="container-fluid masthead-cards">
+  		<div class="container">
+  			<div class="row">
+	  			<div class="col-md-4 mb-4">
+			      <div class="card h-100">
+			        <img class="card-img-top mx-auto pt-5 pb-4" src="images/icon-01-blue.png">
+			        <div class="card-body">
+			          <p class="card-text dark pb-4">State-of-the-art techniques to explain model behavior</p>
+			        </div>
+			      </div>
+			    </div>
+	  			<div class="col-md-4 mb-4">
+			      <div class="card h-100">
+			        <img class="card-img-top mx-auto pt-5 pb-4" src="images/icon-02-blue.png">
+			        <div class="card-body">
+			          <p class="card-text dark pb-4">Comprehensive support for multiple types of models and algorithms, during training and inferencing</p>
+			        </div>
+			      </div>
+			    </div>
+	  			<div class="col-md-4 mb-4">
+			      <div class="card h-100">
+			        <img class="card-img-top mx-auto pt-5 pb-4" src="images/icon-03-blue.png">
+			        <div class="card-body">
+			          <p class="card-text dark pb-4">Community driven open source toolkit</p>
+			        </div>
+			      </div>
+			    </div>
+			</div>
+  		</div>
+  	</div><!-- /.masthead-cards -->
     
-  <div class="container-fluid what-is-interpret-ai">
-    <div class="container inner-box">
-      <div class="row justify-content-lg-center">
-        <div class="col-12 col-lg-8 text-center pt-5">
-          <h2 class="pb-4">What is Interpretability in AI?</h2>
-          <p class="dark">Gaining a comprehensive understanding of AI systems is a key requirement for data scientists, legal auditor, business decision makers, and providers of solutions to end users.</p>
-          <p class="dark pb-5">A bulk of state-of-the-art AI systems are still perceived as backbox difficult to decipher and understand. But businesses often ask questions such as “how can I trust your model?” or “Once deployed, is this model going to treat people fairly?”</p>
-        </div>
-      </div><!-- /.row -->
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <h2 class="pb-5">Type of Interpretability</h2>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img class="card-img-top mx-auto pt-5 pb-4" src="images/Box Icon glass.svg">
-            <div class="card-body">
-              <h3 class="card-title">Glassbox</h3>
-              <p class="card-text dark pb-4">Inherently interpretable. You're creating the model for that purpose. A linear model is an example. This model comes first, research partners care about this the most.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img class="card-img-top mx-auto pt-5 pb-4" src="images/Box Icon gray.svg">
-            <div class="card-body">
-              <h3 class="card-title">Greybox</h3>
-              <p class="card-text dark pb-4">Interpret any model in a specific family of models. An explainer forr neurel network models, I.e. It gives some knowledge of the particular class of models.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card h-100">
-            <img class="card-img-top mx-auto pt-5 pb-4" src="images/Box Icon black.svg">
-            <div class="card-body">
-              <h3 class="card-title">Blackbox</h3>
-              <p class="card-text dark pb-4">I have a model, and I'm going to use the algorithms to explain its behavior.</p>
-            </div>
-          </div>
-        </div>
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-  </div><!-- /.container-fluid -->
+	<div class="container-fluid section-1">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-8 text-center pt-5">
+			  		<h2 class="pb-4">Why InterpretML?</h2>
+			  		<h2 class="pb-4">Model Interpretability</h2>
+			  		<p class="dark">Model interpretability helps developers, data scientists and business stakeholders in the organization gain a comprehensive understanding of their machine learning models. It can also be used to debug models, explain predictions and enable auditing to meet compliance with regulatory requirements.</p>
+				</div>
+			</div><!-- /.row -->
+			<div class="row justify-content-lg-center">
+				<div class="col-7 mb-4">
+				    <div class="card h-100">
+				    	<div class="row">
+				    		<div class="col-2 my-auto">
+					        	<img class="card-img-top mx-auto" src="images/icon-04-blue.png">
+					       	</div>
+					       	<div class="col-10">
+						        <div class="card-body">
+						        	<h3>Ease of use</h3>
+						          	<p class="card-text dark pb-4">Access state-of-the-art interpretability techniques through an open unified API set and rich visualizations</p>
+						        </div>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+				<div class="col-7 mb-4">
+				    <div class="card h-100">
+				    	<div class="row">
+				    		<div class="col-2 my-auto">
+					        	<img class="card-img-top mx-auto" src="images/icon-04-blue.png">
+					       	</div>
+					       	<div class="col-10">
+						        <div class="card-body">
+						        	<h3>Flexible and customizable</h3>
+						          	<p class="card-text dark pb-4">Understand models using a wide range of explainers and techniques using interactive visuals. Choose your interpretability technique and easily experiment with combinations of techniques.</p>
+						        </div>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+				<div class="col-7 mb-4">
+				    <div class="card h-100">
+				    	<div class="row">
+				    		<div class="col-2 my-auto">
+					        	<img class="card-img-top mx-auto" src="images/icon-04-blue.png">
+					       	</div>
+					       	<div class="col-10">
+						        <div class="card-body">
+						        	<h3>Comprehensive capabilities</h3>
+						          	<p class="card-text dark pb-4">Explore model attributes such as performance, global and local features and compare multiple models simultaneously. Run what-if analysis as you manipulate data and view the impact on the model.</p>
+						        </div>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.container-fluid -->
 
-  <div class="container-fluid">
-    <div class="container">
-      <div class="row  justify-content-lg-center pt-5">
-        <div class="col-12 col-lg-8 text-center">
-          <h2 class="pb-3">InterpretML</h2>
-          <p class="dark">InterpretML is a community-driven open source toolkit. Over the past few years, the machine learning interpretability landscape has been filled with techniques and open source packages. However, having to call different interpretability techniques from a set of very distinct repositories (each with a different API), and lack of unified visualizations to provide insights on model explanations have made the adoption of interpretability solutions slow and difficult.</p>
-          <p class="dark pb-5">Our goal is to enable everyone to leverage state-of-the-art interpretability techniques using a unified set of API calls and visualizations.</p>
-        </div>
-        <div class="col-sm-6">
-          <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/easy-customization-icon.png" alt="">
-          <h4 class="text-center pb-3">Easy Customization</h4>
-          <p class="text-center text-lg-left dark pb-5">Practitioners can easily experiment with the selection of glassbox models or greybox/blackbox explainers to find the technique that’s right for their application to generate model explanations. They can also choose interactive visualizations to perform what if analysis and perturbation scenarios, learning about model’s potential unfairness or error and issues.</p>
-        </div>
-        <div class="col-sm-6">
-          <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/community-focus-icon.png" alt="">
-          <h4 class="text-center pb-3">Community Focus</h4>
-          <p class="text-center text-lg-left dark pb-5">InterpretML is designed to make it simple for the research community to add new interpretability techniques comparing it to the state-of-the-art techniques available in the toolkit.</p>
-        </div>
-      </div><!-- /.row -->
+	<div class="container-fluid section-2">
+		<div class="container inner-box">
+		  <div class="row justify-content-lg-center">
+		    <div class="col-sm-12 text-center">
+		      <h2 class="pb-1">Types of Models Supported</h2>
+		    </div>
+		    <div class="col-md-4 mb-4 mx-auto">
+		        <img class="card-img-top pt-5 pb-4 mx-auto" src="images/Box Icon glass.svg">
+		        <h3 class="text-center">Glassbox</h3>
+		    </div>
+		    <div class="col-md-4 mb-4 mx-auto">
+		        <img class="card-img-top pt-5 pb-4 mx-auto" src="images/Box Icon gray.svg">
+		        <h3 class="text-center">Greybox</h3>
+		    </div>
+		    <div class="col-md-4 mb-4 mx-auto">
+		        <img class="card-img-top pt-5 pb-4 mx-auto" src="images/Box Icon black.svg">
+		        <h3 class="text-center">Blackbox</h3>
+		    </div>
+		  </div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.container-fluid -->
+
+	<div class="container-fluid section-3 gradient-2 diagonal">
+		<div class="row">
+		  <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    <polygon fill="#FFFFFF" points="0,0 0,100 100,0"/>
+		  </svg>
+		</div>
+		<div class="container">	
+			<div class="row justify-content-lg-center">
+				<div class="col-12 text-center">
+					<h1>Wide variety of techniques</h1>
+				</div>
+				<div class="col-6">
+					<img class="mx-auto img-fluid" src="images/graphic-03.png">
+				</div>
+				<div class="col-6">
+					<div class="row">
+						<div class="col-12">
+							<h3>Global</h3>
+							<p>Explore overall model behavior and find top features affecting model predictions using global feature importance</p>
+						</div>
+						<div class="col-12">
+							<h3>Local</h3>
+							<p>Explain an individual prediction and find features contributing to it using local feature importance</p>
+						</div>
+						<div class="col-12">
+							<h3>Subset</h3>
+							<p>Explain a subset of predictions using group feature importance</p>
+						</div>
+						<div class="col-12">
+							<h3>Feature Impact</h3>
+							<p>See how changes to input features impact predictions with techniques like what-if analysis</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+		  <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    <polygon fill="#FFFFFF" points="0,100 100,0 100,100"/>
+		  </svg>
+		</div>
+	</div>
+
+	<div class="container-fluid section-4 interactive-visualization">
+		<div class="container">
+		  <div class="row justify-content-lg-center">
+
+		    <div class="col-sm-12 col-lg-8 text-center">
+		      <h2 class="pt-5 pb-2">What You Can Do With InterpretML</h2>
+		      <p class="dark">Explore your dataset and model performance</p>
+		    </div>
+		  </div>
+
+		  <div class="row justify-content-lg-center">
+		    <div class="col-sm-6 col-lg-4 order-sm-2">
+		      <img class="img-fluid mx-auto interactive-visualization-icon pb-5" src="images/interactive-visualization-dashboard-icon.png" alt="">
+		    </div>
+
+		    <div class="col-sm-6 col-lg-4 align-self-center pb-4 order-sm-1">
+		      <h4 class="text-center text-lg-left pb-4">Explore Your Data and Model Predictions</h4>
+		      <li class="img-fluid check-icon">Understand how model performance changes for different subsets of data and compare multiple models</li>
+		      <li class="img-fluid check-icon">Explore model errors</li>
+		      <li class="img-fluid check-icon">Analyze dataset statistics and distributions</li>
+		    </div>
+		  </div>
+
+		  <div class="row justify-content-lg-center">
+
+		    <div class="col-sm-6 col-lg-4">
+		      <img class="img-fluid mx-auto interactive-visualization-icon pb-5" src="images/interactive-visualization-dashboard-icon.png" alt="">
+		    </div>
+
+		    <div class="col-sm-6 col-lg-4 align-self-center pb-4">
+		      <h4 class="text-center text-lg-left pb-4">Gain Model Understanding</h4>
+		      <li class="img-fluid check-icon">Explore global and local explanations</li>
+		      <li class="img-fluid check-icon">Filter data to observe global and local feature importance</li>
+		      <li class="img-fluid check-icon">Run what-if analysis to see how model explanations change if you edit datapoints’ features</li>
+		    </div>
+
+		  </div><!-- /.row -->
+		</div><!-- /.container -->
+	</div><!-- /.container-fluid -->
+
+	<div class="container-fluid section-5">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 text-center">
+					<h2>Who Can Benefit from InterpretML?</h2>
+				</div>
+			</div>
+			<div class="row justify-content-lg-center">
+				<div class="col-3 text-center">
+					<img class="img-fluid" src="images/icon-06.png">
+					<h3>Data Scientists</h2>
+					<p class="dark">Understand models, debug or uncover issues and explain your model to other stakeholders.</p>
+				</div>
+				<div class="col-3 text-center">
+					<img class="img-fluid" src="images/icon-07.png">
+					<h3>Auditors</h2>
+					<p class="dark">Validate a model before it is deployed and audit it post-deployment.</p>
+				</div>
+				<div class="col-3 text-center">
+					<img class="img-fluid" src="images/icon-08.png">
+					<h3>Business Leaders</h2>
+					<p class="dark">Understand how models behave, in order to provide transparency about predictions to customers.</p>
+				</div>
+				<div class="col-3 text-center">
+					<img class="img-fluid" src="images/icon-09.png">
+					<h3>Researchers</h2>
+					<p class="dark">Easily integrate with new interpretability techniques and compare against other algorithms.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid section-6 diagonal">
+		<div class="row">
+		  <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    <polygon fill="#FFFFFF" points="0,0 0,100 100,0"/>
+		  </svg>
+		</div>
+		<div class="container">
+		  <div class="row justify-content-lg-center">
+		    <div class="col-sm-12 col-lg-6 text-center pb-5">
+		      <h1 class="pt-5 pb-4">Getting Started</h1>
+		      <a class="models-behavior-btn" href="https://microsoft.com">Install InterpretML</a>
+		    </div>
+		  </div><!-- /.row --> 
+		</div><!-- /.container -->
+		<div class="row">
+		  <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+		    <polygon fill="#FFFFFF" points="0,100 100,0 100,100"/>
+		  </svg>
+		</div>
+	</div><!-- /.container-fluid -->
+
+	<div class="container-fluid section-7">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2>Contribute to InterpretML</h2>
+					<p class="dark">We encourage you to join the effort and contribute feedback, algorithms, ideas and more, so we can evolve the toolkit together!</p>
+					<a class="masthead-btn" href="https://microsoft.com">GitHub</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="page-footer pb-5">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-3">
+	    			<h2 class="light">Resources</h2>
+	    		</div>
+	    		<div class="col-3">
+	    			<h4 class="light">Got Questions?</h4>
+	    			<h4 class="light">Learn More About InterpretML</h4>
+	    			<h4 class="light">Got Questions?</h4>
+	    			<h4 class="light">Interpretability for Text Data</h4>
+	    			<h4 class="light">Counterfactual Example Analysis</h4>
+	    		</div>
+	    		<div class="col-3">
+	    			<h4 class="light">Contact Us</h4>
+	    			<h4 class="light">Documentation</h4>
+	    			<h4 class="light">How to Article</h4>
+	    			<h4 class="light">Sample Notebooks</h4>
+	    			<h4 class="light">Interpretability for Text Scenarios</h4>
+	    		</div>
+	    		<div class="col-3">
+	    			<h3 class="light">Contact Us</h3>
+	    		</div>
+	    	</div>
 
 
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <h2 class="pb-5">When Should I Use InterpretML?</h2>
-        </div>
-        <div class="col-md-3 mb-5">
-          <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/researchers-icon.png" alt="">
-          <h4 class="text-center pb-3">Researchers</h4>
-          <p class="text-center text-lg-left dark">You are a researcher and want to easily integrate your machine learning interpretability technique and compare it to other state-of-the-art interpretability techniques.</p>
-        </div>
-        <div class="col-md-3 mb-5">
-          <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/data-scientists-icon.png" alt="">
-          <h4 class="text-center pb-3">Data Scientists / ML Developers</h4>
-          <p class="text-center text-lg-left dark">You are a data scientist/machine learning developer and want to achieve a comprehensive understanding of your model, perform error analysis to uncover potential issues, and explain your model to non-technical stakeholders.</p>
-        </div>
-        <div class="col-md-3 mb-5">
-          <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/legal-auditors-icon.png" alt="">
-          <h4 class="text-center pb-3">Legal Auditors</h4>
-          <p class="text-center text-lg-left dark">You are a business decision maker who wants to gain trust around machine learning models and make sure the model is not going to hurt the business or harm people.</p>
-        </div>
-        <div class="col-md-3 mb-5 text-center">
-          <img class="img-fluid mx-auto interpretml-icons mb-3" src="images/business-decisions-icon.png" alt="">
-          <h4 class="text-center pb-3">Business Decision Makers</h4>
-          <p class="text-center text-lg-left dark">You are a business decision maker who wants to gain trust around machine learning models and make sure the model is not going to hurt the business or harm people.</p>
-        </div>
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-  </div><!-- /.container-fluid -->
 
-  <div class="container-fluid gradient-2 diagonal">
-    <div class="row">
-      <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon fill="#FFFFFF" points="0,0 0,100 100,0"/>
-      </svg>
-    </div>
-
-      <div class="row justify-content-lg-center">
-        <div class="col-12 col-lg-8 text-center">
-          <h2 class="heading-light pt-5 pb-5">Generating Model Explanations</h2>
-          <p class="pb-4">Automatically analyze predictions across different groups of people to identify potential harms of allocations or quality-of-service issues in your models.</p>
-        </div>
-      </div>
-
-      <div class="row justify-content-lg-center">
-        <div class="col-sm-6 col-lg-4">
-           <img class="img-fluid mx-auto generating-model-icon pb-4" src="images/generating-model-explanations-icon.png" alt="">
-        </div>
-        <div class="col-sm-6 col-lg-4 align-self-center">
-          <h4 class="heading-light text-center text-lg-left pb-4">Global Feature Importance Values</h4>
-          <p class="text-center text-lg-left pb-4">Gain an understanding of entire model and what are the top factors affecting overall model predictions/comprehend the entire model by having a holistic view of feature importance values</p>
-        </div>
-      </div>
-
-      <div class="row justify-content-lg-center">
-        <div class="col-sm-6 col-lg-4 order-sm-2">
-          <img class="img-fluid mx-auto local-feature-icon pb-4" src="images/local-feature-icon.png" alt="">
-        </div>
-        <div class="col-sm-6 col-lg-4 align-self-center">
-          <h4 class="heading-light text-center text-lg-left pb-4">Local Feature Importance Values</h4>
-          <p class="text-center text-lg-left pb-4">Explore a single prediction and see how its features have affected model prediction</p>
-        </div>
-
-      </div>
-
-      <div class="row justify-content-lg-center">
-
-        <div class="col-sm-6 col-lg-4">
-          <img class="img-fluid mx-auto group-feature-icon pb-4" src="images/group-feature-importance-icon.png" alt="">
-        </div>
-
-        <div class="col-sm-6 col-lg-4 align-self-center">
-          <h4 class="heading-light text-center text-lg-left pb-4">Group Feature Importance Values</h4>
-          <p class="text-center text-lg-left pb-4">Explore a cohort/subset of data points (e.g., female) and observe how model has made predictions for that group.</p>
-        </div>
-
-      </div><!-- /.row -->
-      <div class="row">
-        <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <polygon fill="#FFFFFF" points="0,100 100,0 100,100"/>
-        </svg>
-      </div>
-    </div><!-- /.container -->
-
-  </div><!-- /.container-fluid -->
-
-  <div class="container-fluid interactive-visualization">
-    <div class="container">
-      <div class="row justify-content-lg-center">
-
-        <div class="col-sm-12 col-lg-8 text-center">
-          <h2 class="pt-5 pb-2">Interactive Visualizations</h2>
-          <p class="dark">Explore and easily explain findings with interactive visualizations</p>
-        </div>
-      </div>
-
-      <div class="row justify-content-lg-center">
-        <div class="col-sm-6 col-lg-4 order-sm-2">
-          <img class="img-fluid mx-auto interactive-visualization-icon pb-5" src="images/interactive-visualization-dashboard-icon.png" alt="">
-        </div>
-
-        <div class="col-sm-6 col-lg-4 align-self-center pb-4 order-sm-1">
-          <h4 class="text-center text-lg-left pb-4">Explore Your Data and Model Predictions</h4>
-          <li class="img-fluid check-icon">Explore your data and model predictions</li>
-          <li class="img-fluid check-icon">Observe top global features and in what direction they impact predictions</li>
-          <li class="img-fluid check-icon">Observe top local features for a particular datapoint and in what direction they impact that single prediction</li>
-        </div>
-      </div>
-
-      <div class="row justify-content-lg-center">
-
-        <div class="col-sm-6 col-lg-4">
-          <img class="img-fluid mx-auto interactive-visualization-icon pb-5" src="images/interactive-visualization-dashboard-icon.png" alt="">
-        </div>
-
-        <div class="col-sm-6 col-lg-4 align-self-center pb-4">
-          <h4 class="text-center text-lg-left pb-4">Explore Model Explanation</h4>
-          <li class="img-fluid check-icon">Filter data to observe global and local features importance of a subset of data</li>
-          <li class="img-fluid check-icon">Run what-if analysis to explore how model predictions would change as you perturb one or multiple features</li>
-        </div>
-
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-  </div><!-- /.container-fluid -->
-
-  <div class="container-fluid gradient diagonal">
-    <div class="row">
-      <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon fill="#FFFFFF" points="0,0 0,100 100,0"/>
-      </svg>
-    </div>
-    <div class="container">
-      <div class="row justify-content-lg-center">
-        <div class="col-sm-12 col-lg-6 text-center pb-5">
-          <h1 class="pt-5 pb-4">Start Understanding Your Model's Behavior</h1>
-          <p class="pb-3">Lorem ipsum dolor sit amet, consectutur adipiscing elit. Sed pretium at est sit amet dictum.</p>
-          <a class="models-behavior-btn" href="https://microsoft.com">Watch Tutorials</a>
-          <a class="models-behavior-btn-transparent" href="https://microsoft.com">Github</a>
-        </div>
-      </div><!-- /.row --> 
-    </div><!-- /.container -->
-    <div class="row">
-      <svg class="triangle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon fill="#061058" points="0,100 100,0 100,100"/>
-      </svg>
-    </div>
-  </div><!-- /.container-fluid -->
-
-  <!-- Footer -->
-  <footer class="page-footer pb-5">
-    <div class="container">
-      <div class="row pt-lg-5">
-        <div class="col-sm-12 col-md-2 d-flex align-items-center justify-content-md-start flex-column flex-md-row pt-4 pb-5">
-          <img class="img-fluid mx-auto footer-logo" src="images/Footer-Logo.png" alt="">
-        </div>
-        <div class="col-sm-12 col-md-10 d-flex align-items-center justify-content-md-end flex-column flex-md-row">
-            <div class="mr-md-4">
-              <a class="nav-link" href="https://microsoft.com">
-                <p class="mb-md-0">Section 01</p>
-              </a>
-            </div>
-            <div class="mr-md-4">
-              <a class="nav-link" href="https://microsoft.com">
-                <p class="mb-md-0">Section 02</p>
-              </a>
-            </div>
-            <div class="mr-md-4">
-              <a class="nav-link" href="https://microsoft.com">
-                <p class="mb-md-0">Section 03</p>
-              </a>
-            </div>
-            <div class="mr-md-4">
-              <a class="nav-link" href="https://microsoft.com">
-                <p class="mb-md-0">Section 04</p>
-              </a>
-            </div>
-            <a class="footer-btn-transparent text-center" href="https://microsoft.com">Github</a>
-        </div>
-      </div>
-    </div>
-  </footer><!-- Footer -->
+	      <div class="row pt-lg-5">
+	        <div class="col-sm-12 col-md-2 d-flex align-items-center justify-content-md-start flex-column flex-md-row pt-4 pb-5">
+	          <img class="img-fluid mx-auto footer-logo" src="images/Footer-Logo.png" alt="">
+	        </div>
+	        <div class="col-sm-12 col-md-10 d-flex align-items-center justify-content-md-end flex-column flex-md-row">
+	            <div class="mr-md-4">
+	              <a class="nav-link" href="https://microsoft.com">
+	                <p class="mb-md-0">Section 01</p>
+	              </a>
+	            </div>
+	            <div class="mr-md-4">
+	              <a class="nav-link" href="https://microsoft.com">
+	                <p class="mb-md-0">Section 02</p>
+	              </a>
+	            </div>
+	            <div class="mr-md-4">
+	              <a class="nav-link" href="https://microsoft.com">
+	                <p class="mb-md-0">Section 03</p>
+	              </a>
+	            </div>
+	            <div class="mr-md-4">
+	              <a class="nav-link" href="https://microsoft.com">
+	                <p class="mb-md-0">Section 04</p>
+	              </a>
+	            </div>
+	            <a class="footer-btn-transparent text-center" href="https://microsoft.com">Github</a>
+	        </div>
+	      </div>
+	    </div>
+	</footer><!-- Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
