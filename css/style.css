@@ -254,10 +254,25 @@ display: block;
   width: 180px;
   height: auto;
 }
+.inactive{
+  display: none;
+}
+.active{
+  display: block;
+}
+
 /*SECTION 3*/
 .element-image {
   width: 357px;
   height: auto;
+}
+.technique-card{
+  background-color: transparent;
+  border: 0px solid #FFFFFF;
+  border-radius: 5px;
+}
+.white-card{
+  background-color: white;
 }
 
 /*SECTION 4*/

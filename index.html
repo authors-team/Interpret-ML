@@ -48,10 +48,8 @@
 	          <h3 class="masthead-subhead text-center text-md-left pb-3">A toolkit to help understand models and enable responsible machine learning</h3>
 	        <div class="row">
 	          <div class="col-sm-12 text-center text-md-left ">
-	            <a class="masthead-btn text-center mr-4" href="https://github.com/Fairlearn/Fairlearn
-">Get Started</a>
-	            <a class="masthead-btn-transparent text-center" href="https://Fairlearn.readthedocs.io/en/latest/
-">API Docs</a>
+	            <a class="masthead-btn text-center mr-4" href="https://github.com/Fairlearn/Fairlearn">Get Started</a>
+	            <a class="masthead-btn-transparent text-center" href="https://Fairlearn.readthedocs.io/en/latest/">API Docs</a>
 	          </div>
 	        </div>
 	        </div>
@@ -155,24 +153,48 @@
 	</div><!-- /.container-fluid -->
 
 	<div class="container-fluid section-2 pt-2">
-		<div class="container inner-box">
+		<div class="container inner-box pb-5">
 		  <div class="row justify-content-lg-center">
 		    <div class="col-sm-12 text-center pt-5">
 		      <h2 class="pt-3 dark">Types of Models Supported</h2>
 		    </div>
-		    <div class="col-md-4 mb-4 mx-auto text-center">
-		        <img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon glass.svg">
-		        <h4 class="text-center">Glassbox</h4>
+		    <div class="col-md-3 mb-4 text-center">
+		    	<div class="box-card-1">
+			    	<img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon glass.svg">
+			    	<h4 class="text-center">Glassbox</h4>
+			    </div>
 		    </div>
-		    <div class="col-md-4 mb-4 mx-auto text-center">
-		        <img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon black.svg">
-		        <h4 class="text-center">Blackbox</h4>
+		    <div class="col-md-3 mb-4 text-center">
+		    	<div class="box-card-2">
+		       		<img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon black.svg">
+		        	<h4 class="text-center">Blackbox</h4>
+		        </div>
 		    </div>
-		    <div class="col-md-4 mb-4 mx-auto text-center">
-		        <img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon gray.svg">
-		        <h4 class="text-center">Greybox</h4>
+		    <div class="col-md-3 mb-4 text-center">
+		    	<div class="box-card-3">
+		        	<img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon gray.svg">
+		        	<h4 class="text-center">Greybox</h4>
+		        </div>
 		    </div>
 		  </div><!-- /.row -->
+
+		<div class="row pb-5">
+			<div class="content">
+				<div class="col-8 mx-auto glass inactive">
+					<p class="text-center">Glass-box models are interpretable due to their structure. Examples include: Explainable Boosting Machines (EBM), Linear models, and decision trees.</p>
+				</div>
+
+				<div class="col-8 mx-auto black inactive">
+					<p class="text-center">Black-box models are challenging to understand, for example deep neural networks. Explainers are model-agnostic and analyze the relationship between input features and output predictions to interpret models. Examples include LIME and SHAP Kernel Explainer.</p>
+				</div>
+
+				<div class="col-8 mx-auto grey inactive">
+					<p class="text-center">Explainers use a model-specific approach that includes understanding the structure of algorithms or model information (such as weights of features). Examples include LIME, SHAP Tree Explainer, and SHAP Deep Explainer.</p>
+				</div>
+			</div>
+
+		</div>
+
 		</div><!-- /.container -->
 	</div><!-- /.container-fluid -->
 
@@ -183,33 +205,47 @@
 		  </svg>
 		</div>
 		<div class="container">	
-			<div class="row justify-content-lg-center">
+			<div class="row">
 				<div class="col-12 text-center">
 					<h2>Wide variety of techniques</h2>
 				</div>
-				<div class="col-6 text-center">
+			</div>
+
+
+			<div class="row">
+				<div class="col-6 text-center my-auto">
 					<img class="element-image mx-auto img-fluid" src="images/graphic-03.png">
 				</div>
-				<div class="col-6">
+
+				<div class="col-6 my-auto pt-5">
 					<div class="row">
-						<div class="col-12">
-							<h3>Global</h3>
-							<p class="white">Explore overall model behavior and find top features affecting model predictions using global feature importance</p>
+						<div class="col-9 mx-auto">
+							<div class="technique-card px-5 py-4">
+								<h3 class="technique-text">Global</h3>
+								<p class="white technique-text">Explore overall model behavior and find top features affecting model predictions using global feature importance</p>
+							</div>
 						</div>
-						<div class="col-12">
-							<h3>Local</h3>
-							<p class="white">Explain an individual prediction and find features contributing to it using local feature importance</p>
+						<div class="col-9 mx-auto">
+							<div class="technique-card px-5 py-4">
+								<h3 class="technique-text">Local</h3>
+								<p class="white technique-text">Explain an individual prediction and find features contributing to it using local feature importance</p>
+							</div>
 						</div>
-						<div class="col-12">
-							<h3>Subset</h3>
-							<p class="white">Explain a subset of predictions using group feature importance</p>
+						<div class="col-9 mx-auto">
+							<div class="technique-card px-5 py-4">
+								<h3 class="technique-text">Subset</h3>
+								<p class="white technique-text">Explain a subset of predictions using group feature importance</p>
+							</div>
 						</div>
-						<div class="col-12">
-							<h3>Feature Impact</h3>
-							<p class="white">See how changes to input features impact predictions with techniques like what-if analysis</p>
+						<div class="col-9 mx-auto">
+							<div class="technique-card px-5 py-4">
+								<h3 class="technique-text">Feature Impact</h3>
+								<p class="white technique-text">See how changes to input features impact predictions with techniques like what-if analysis</p>
+							</div>
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 		<div class="row">
@@ -372,5 +408,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
