@@ -24,31 +24,31 @@ h1 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 42px;
-  line-height: 48px;
+  font-size: 52px;
+  line-height: 58px;
   color: #FFFFFF;
 }
 h2 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 44px;
   line-height: 34px;
-  color: #061058;
+  color: #FFFFFF;
 }
 h3 {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  color: #061058;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
 }
 h4 {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 18px;
   color: #061058;
 }
@@ -59,18 +59,18 @@ h5 {
   color: #061058;
 }
 h6 {
-  font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 18px;
-  line-height: 18px;
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
   color: #061058;
 }
 p {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 24px;
+  color: #545454;
 }
 .understand-your-models li {
   font-family: 'TT Commons Regular', Arial, sans-serif;
@@ -86,9 +86,12 @@ p {
 
 /*UNIVERSAL*/
 .dark {
+  color: #061058;
+}
+.medium {
   color: #878C97;
 }
-.light{
+.white{
   color: #FFFFFF;
 }
 .heading-light{
@@ -114,7 +117,7 @@ p {
   display: inline-block;
   color: white !important;
   background-color: #064EFE;
-  padding: 9px 0px;
+  padding: 9px 0px 5px 0px;
   width: 100px;
 }
 .navbar .navbar-toggler .icon-bar {
@@ -127,6 +130,14 @@ p {
 
 
 /*MASTHEAD*/
+.masthead-subhead {
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
 li.icon-01 {
 background: url('../images/Icon-01.png') no-repeat left 0px;
 background-size: 30px 30px;
@@ -165,12 +176,22 @@ display: block;
 }
 .masthead-btn {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
-  padding: 9px 0px;
-  width: 120px;
+  padding: 9px 0px 5px 0px;
+  width: 154px;
+}
+.masthead-btn-transparent {
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: transparent;
+  padding: 9px 0px 5px 0px;
+  width: 154px;
+  border: 1px solid #FFFFFF;
 }
 .triangle-svg {
   bottom: 0;
@@ -188,15 +209,32 @@ display: block;
 }
 .card-img-top{
   display: block;
-  width:86px;
+  width: 50px;
+  height: auto;
+}
+.card-img-top-b{
+  display: block;
+  width: 59px;
   height: auto;
 }
 
 
 /*SECTION 1*/
+.card-blue{
+  background: #F5F8FF;
+  border: 0px solid rgba(0,0,0,.125);
+}
+.card-icon {
+  width: 30px;
+  height: auto;
+}
 
 
 /*SECTION 2*/
+.box-icons {
+  width: 86px;
+  height: auto;
+}
 .section-2 {
   position: relative;
   z-index: 1000;
@@ -216,43 +254,54 @@ display: block;
   width: 180px;
   height: auto;
 }
-
-
-/*INTERACTIVE VISUALIZATIONS*/
-.interactive-visualization-icon{
-  display: block;
-  width: 240px;
+/*SECTION 3*/
+.element-image {
+  width: 357px;
   height: auto;
 }
-.interactive-visualization li {
+
+/*SECTION 4*/
+.interactive-visualization-icon{
+  display: block;
+  width: 440px;
+  height: auto;
+}
+
+.section-4 li {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   color: red;
 }
 li.check-icon {
-color: #878C97;
-background: url('../images/check-icon.png') no-repeat  0 5px;
-background-size: 13px 10px;
-padding-left: 25px;
-display: block;
+  color: #878C97;
+  background: url('../images/check-icon.png') no-repeat  0 5px;
+  background-size: 13px 10px;
+  padding-left: 25px;
+  display: block;
 }
 
+
+/*SECTION 5*/
+.benefits-icons{
+  width: 30px;
+  height: 58px;
+}
 
 /*START UNDERSTANDING MODELS BEHAVIOR*/
 .models-behavior-btn {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
-  padding: 9px 0px;
+  padding: 9px 0px 5px 0px;
   margin: 0px 9px;
-  width: 120px;
+  width: 180px;
 }
 .models-behavior-btn-transparent {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -271,6 +320,17 @@ display: block;
   background: linear-gradient(41deg, #061058 3.01%, #3B4ED3 165.83%);
 }
 
+/*SECTION 6*/
+.contribute-btn{
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  color: #FFFFFF;
+  background-color: #064EFE;
+  padding: 9px 0px 5px 0px;
+  margin: 0px 9px;
+  width: 120px;
+}
 
 
 /*FOOTER*/
@@ -289,17 +349,28 @@ display: block;
 }
 .footer-btn-transparent{
   font-family: 'TT Commons Medium', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
   border: 1px solid #FFFFFF;
   width: 100px;
-  padding: 9px 0px;
+  padding: 9px 0px 5px 0px;
 }
 .footer-logo{
   width:121px;
   height: auto;
+}
+.footer-bold {
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.footer-small {
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
