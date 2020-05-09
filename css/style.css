@@ -24,15 +24,15 @@ h1 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 52px;
-  line-height: 58px;
+  font-size: 44px;
+  line-height: 48px;
   color: #FFFFFF;
 }
 h2 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 44px;
+  font-size: 34px;
   line-height: 34px;
   color: #FFFFFF;
 }
@@ -40,8 +40,8 @@ h3 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 24px;
+  line-height: 30px;
   color: #FFFFFF;
 }
 h4 {
@@ -54,8 +54,8 @@ h4 {
 }
 h5 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 18px;
   color: #061058;
 }
 h6 {
@@ -68,8 +68,8 @@ p {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 20px;
   color: #545454;
 }
 .understand-your-models li {
@@ -114,6 +114,7 @@ p {
   color: #212B36;
 }
 .navbar-btn {
+  font-size: 14px;
   display: inline-block;
   color: white !important;
   background-color: #064EFE;
@@ -126,6 +127,10 @@ p {
 .nav-logo{
   width: 166px;
   height: auto;
+}
+.navbar .nav-link:hover{
+    text-decoration: underline;
+    color: #064EFE;
 }
 
 
@@ -176,22 +181,30 @@ display: block;
 }
 .masthead-btn {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
   padding: 9px 0px 5px 0px;
   width: 154px;
 }
+.masthead-btn:hover {
+  text-decoration: underline;
+  color: #064EFE;
+}
 .masthead-btn-transparent {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
   padding: 9px 0px 5px 0px;
   width: 154px;
   border: 1px solid #FFFFFF;
+}
+.masthead-btn-transparent:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
 }
 .triangle-svg {
   bottom: 0;
@@ -310,13 +323,17 @@ li.check-icon {
 /*START UNDERSTANDING MODELS BEHAVIOR*/
 .models-behavior-btn {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
   padding: 9px 0px 5px 0px;
   margin: 0px 9px;
   width: 180px;
+}
+.models-behavior-btn:hover {
+  text-decoration: underline;
+  color: #064EFE;
 }
 .models-behavior-btn-transparent {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -338,13 +355,17 @@ li.check-icon {
 /*SECTION 6*/
 .contribute-btn{
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   display: inline-block;
   color: #FFFFFF;
   background-color: #064EFE;
   padding: 9px 0px 5px 0px;
   margin: 0px 9px;
   width: 120px;
+}
+.contribute-btn:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
 }
 
 
@@ -364,13 +385,17 @@ li.check-icon {
 }
 .footer-btn-transparent{
   font-family: 'TT Commons Medium', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
   border: 1px solid #FFFFFF;
   width: 100px;
   padding: 9px 0px 5px 0px;
+}
+.footer-btn-transparent:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
 }
 .footer-logo{
   width:121px;
