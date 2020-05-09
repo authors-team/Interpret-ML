@@ -287,6 +287,9 @@ display: block;
 .white-card{
   background-color: white;
 }
+.local, .group, .feature {
+  display: none;
+}
 
 /*SECTION 4*/
 .interactive-visualization-icon{

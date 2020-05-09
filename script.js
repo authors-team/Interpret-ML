@@ -14,6 +14,43 @@ $(document).ready(function() {
     }
   );
 
+  $(".tc-2").hover(
+    function() {
+      $(".global").css("display", "none");
+      $(".group").css("display", "none");
+      $(".feature").css("display", "none");
+      $(".local").css("display", "block");
+    }, function() {
+      $(".global").css("display", "block");
+      $(".local").css("display", "none");
+    }
+  );
+
+  $(".tc-3").hover(
+    function() {
+      $(".global").css("display", "none");
+      $(".local").css("display", "none");
+      $(".feature").css("display", "none");
+      $(".group").css("display", "block");
+    }, function() {
+      $(".global").css("display", "block");
+      $(".group").css("display", "none");
+    }
+  );
+
+  $(".tc-4").hover(
+    function() {
+      $(".global").css("display", "none");
+      $(".local").css("display", "none");
+      $(".group").css("display", "none");
+      $(".feature").css("display", "block");
+    }, function() {
+      $(".global").css("display", "block");
+      $(".feature").css("display", "none");
+    }
+  );
+
+
 
   $(".box-card-1").click(
     function() {
@@ -30,6 +67,8 @@ $(document).ready(function() {
       $(".glass", this).removeClass('active');
     }
   );
+
+
 
 // document ready  
 });
