@@ -72,17 +72,6 @@ p {
   line-height: 20px;
   color: #545454;
 }
-.understand-your-models li {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #FFFFFF;
-}
-
 
 /*UNIVERSAL*/
 .dark {
@@ -135,6 +124,9 @@ p {
 
 
 /*MASTHEAD*/
+.masthead {
+  padding-bottom: 260px;
+}
 .masthead-subhead {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-style: normal;
@@ -200,7 +192,8 @@ display: block;
   background-color: transparent;
   padding: 9px 0px 5px 0px;
   width: 154px;
-  border: 1px solid #FFFFFF;
+  outline-offset: -1px;
+  outline: 1px solid #fff;
 }
 .masthead-btn-transparent:hover {
   text-decoration: underline;
@@ -215,6 +208,9 @@ display: block;
 .masthead-icon {
   width: 30px;
   height: 30px;
+}
+.masthead-cards{
+  margin-top: -300px;
 }
 .masthead-cards .card{
   box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
@@ -273,6 +269,10 @@ display: block;
 .active{
   display: block;
 }
+  .inner-box {
+    background-color: white;
+    box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.1);
+  }
 
 /*SECTION 3*/
 .element-image {
@@ -416,22 +416,36 @@ li.check-icon {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .masthead-cards .card{
     box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
   }
   .masthead-cards{
     position: relative;
     z-index: 5000;
-    margin-top: -220px;
+    margin-top: -210px;
   }
-  .inner-box {
-    background-color: white;
-    box-shadow: 0px 40px 100px rgba(0, 0, 0, 0.1);
+  .masthead {
+    padding-bottom: 160px;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-bottom: 160px;
+  }
+  .masthead-cards{
+    position: relative;
+    z-index: 5000;
+    margin-top: -210px;
   }
 }
 
 @media (min-width: 1200px){
-.container {
+  .container {
     max-width: 1140px;
+  }
+  .masthead-cards{
+    margin-top: -250px;
+  }
 }
