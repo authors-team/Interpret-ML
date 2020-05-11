@@ -54,17 +54,17 @@ $(document).ready(function() {
 
   $(".box-card-1").click(
     function() {
-      console.log("hello");
-      $(".glass", this).removeClass('inactive');
-      $(".glass", this).addClass('active');
+      console.log("box 1 clicked");
+      $(".glass").removeClass('inactive');
+      $(".black").removeClass('active');
     }
   );
 
   $(".box-card-2").click(
     function() {
-      console.log("hello");
-      $(".glass", this).addClass('inactive');
-      $(".glass", this).removeClass('active');
+      console.log("box 2 clicked");
+      $(".glass").addClass('inactive');
+      $(".black").addClass('active');
     }
   );
 
