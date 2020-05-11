@@ -213,14 +213,14 @@ display: block;
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
-  color: #064EFE;
-  background-color: #FFFFFF;
-  padding: 9px 0px 5px 0px;
+  color: #FFFFFF;
+  background-color: #064EFE;
+  padding: 15px 0px 12px 0px;
   width: 154px;
 }
 .masthead-btn:hover {
   text-decoration: underline;
-  color: #064EFE;
+  color: #FFFFFF;
 }
 .masthead-btn-transparent {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -228,7 +228,7 @@ display: block;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
-  padding: 9px 0px 5px 0px;
+  padding: 15px 0px 12px 0px;
   width: 154px;
   outline-offset: -1px;
   outline: 1px solid #fff;
@@ -263,6 +263,9 @@ display: block;
   display: block;
   width: 59px;
   height: auto;
+}
+.blue-card{
+  background-color: #064EFE;
 }
 
 
@@ -321,12 +324,6 @@ display: block;
   width: 50%;
   background-color: pink;
 }
-.im-special  {
-  border-bottom: 4px solid #064EFE;
-  /*margin: 0px 85px 0px 85px;*/
-  padding-bottom: 25px;
-  margin-bottom:0px;
-}
 
 /*SECTION 3*/
 .element-image {
@@ -376,17 +373,14 @@ li.check-icon {
   width: 30px;
   height: 58px;
 }
-
-/*START UNDERSTANDING MODELS BEHAVIOR*/
 .models-behavior-btn {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
-  padding: 9px 0px 5px 0px;
+  padding: 14px 20px 10px 20px;
   margin: 0px 9px;
-  width: 180px;
 }
 .models-behavior-btn:hover {
   text-decoration: underline;
@@ -404,19 +398,18 @@ li.check-icon {
   width: 120px;
 }
 
+
 /*SECTION 6*/
 .section-6{
   background: linear-gradient(41deg, #061058 3.01%, #3B4ED3 165.83%);
 }
-
-/*SECTION 6*/
 .contribute-btn{
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
   color: #FFFFFF;
   background-color: #064EFE;
-  padding: 9px 0px 5px 0px;
+  padding: 14px 0px 10px 0px;
   margin: 0px 9px;
   width: 120px;
 }
@@ -458,16 +451,36 @@ li.check-icon {
   width:121px;
   height: auto;
 }
+.footer-custom-margin{
+  margin-bottom: 0px;
+}
+.footer-italic {
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
 .footer-bold {
   font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-size: 16px;
   font-style: normal;
   font-weight: bold;
 }
 .footer-small {
   font-family: 'TT Commons Regular', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: bold;
+}
+.footer-line{
+  width: 100%;
+  height:1px;
+  background-color: #FFFFFF;
+  opacity: .2;
+}
+.copyright-text{
+  padding-top: 11px;
+  margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
