@@ -164,24 +164,60 @@
 	</div><!-- /.container-fluid -->
 
 	<div class="container-fluid section-2 pt-2">
-		<div class="container inner-box pb-5">
+<!-- 		<div class="container inner-box pb-5">
 			<div class="row justify-content-md-center">
-						<div class="col-6 col-md-3 text-center">
-							<div class="box-card-1">
-						    	<img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon glass.svg">
-						    	<h4 class=" text-center">Glassbox</h4>
-						    </div>
-						</div>
-						<div class="col-6 col-md-3 mb-4 text-center">
-							<div class="box-card-2">
-						   		<img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon black.svg">
-						    	<h4 class=" text-center">Blackbox</h4>
-						    </div>
-						</div>
+				<div class="col-6 col-md-3 text-center">
+					<div class="box-card-1">
+				    	<img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon glass.svg">
+				    	<h4 class=" text-center">Glassbox</h4>
+				    </div>
+				</div>
+				<div class="col-6 col-md-3 mb-4 text-center">
+					<div class="box-card-2">
+				   		<img class="box-icons pt-5 pb-4 mx-auto" src="images/Box Icon black.svg">
+				    	<h4 class=" text-center">Blackbox</h4>
+				    </div>
+				</div>
+			</div> -->
 
-			</div>
+		<div class="container p-t-md">
+		    <div class="row justify-content-center">
+		    	<div class="col-12 col-lg-8 text-center pt-5 pb-4">
+			  		<h2 class="dark">Types of Models Supported</h2>
+			  	</div>
+		        <div class="col-md-6">
+		            <ul class="nav nav-tabs justify-content-between">
+		                <li class="nav-item text-center">
+		                	<a class="nav-link pb-4 active" data-toggle="tab" href="#currentPreferences">
+		                	<img class="box-icons pb-4 mx-auto" src="images/Box Icon glass.svg">
+		                    <h4>Glass-Box</h4></a>
+		                </li>
+		                <li class="nav-item text-center">
+		                	<a class="nav-link pb-4" data-toggle="tab" href="#alternative">
+		                	<img class="box-icons pb-4 mx-auto" src="images/Box Icon black.svg">
+		                    <h4>Black-Box</h4></a>
+		                </li>
+		            </ul>
+		            <div class="tab-content pt-4">
+		                <div role="tabpanel" class="tab-pane active" id="currentPreferences">
+		                    <ul class="list-group media-list media-list-stream pt-2">
+		                        <p>Glass-box models produce lossless explanations and are editable by domain experts.</p>
+		                    </ul>
+		                </div>
+		                <div role="tabpanel" class="tab-pane fade in" id="alternative">
+		                    <ul class="list-group media-list media-list-stream">
+		                        <p>Black-box models are challenging to understand, for example deep neural networks. Explainers are model-agnostic and analyze the relationship between input features and output predictions to interpret models. Examples include LIME and SHAP Kernel Explainer.</p>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
 
-			<div class="row justify-content-center pb-5">
+		    </div>
+		</div>		
+
+
+
+<!-- 			<div class="row justify-content-center pb-5">
 				<div class="content">
 					<div class="col-8 mx-auto glass">
 						<p class="text-center">Glass-box models produce lossless explanations and are editable by domain experts.</p>
@@ -190,7 +226,7 @@
 						<p class="text-center">Black-box models are challenging to understand, for example deep neural networks. Black-box explainers can analyze the relationship between input features and output predictions to interpret model. Examples include LIME and SHAP.</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 		</div><!-- /.container -->
 	</div><!-- /.container-fluid -->
@@ -259,7 +295,7 @@
 		  <div class="row justify-content-lg-center pb-5">
 		    <div class="col-sm-12 col-lg-8 text-center">
 		      <h2 class="pt-5 pb-2 dark">What You Can Do With InterpretML</h2>
-		      <h6 class="medium">Explore your dataset and model performance</h6>
+		      <p class="medium">Explore your dataset and model performance</p>
 		    </div>
 		  </div>
 

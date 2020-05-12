@@ -15,40 +15,30 @@
        url("../fonts/TypeType-TTCommonsBold.otf") format("opentype");
 }
 
-/*
 
-.topnav {
+.section-2 .tab-content{
+  margin-top: -2px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #E9E9E9;
+  padding: 15px 0;
+}
+.section-2 .nav-tabs .nav-link.active{
+  border: 0;
+  border-bottom: 4px solid #064EFE;
   position: relative;
-  overflow: hidden;
-  background-color: #f1f1f1;
-  border-bottom: 2px solid red;
 }
-
-.topnav a {
-  z-index: 100;
-  position: absolute;
-  font-family: 'TT Commons Regular', Arial, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 18px;
-  color: #061058;
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border-bottom: 4px solid transparent;
+.section-2 .nav-tabs li.active {
+    border-bottom: 4px solid #f3565d;
+    position: relative;
 }
-
-.topnav a:hover {
-  border-bottom: 4px solid #064EFE;
+.section-2 .nav-tabs .nav-link {
+  border: red;
 }
-
-.topnav a.active {
-  border-bottom: 4px solid #064EFE;
+.section-2 .nav-tabs{
+    border: none;
+    margin: 0px;
 }
-*/
 
 
 
@@ -65,6 +55,8 @@ h1 {
   font-size: 44px;
   line-height: 48px;
   color: #FFFFFF;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 h2 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -73,6 +65,8 @@ h2 {
   font-size: 34px;
   line-height: 34px;
   color: #FFFFFF;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 h3 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
@@ -81,6 +75,8 @@ h3 {
   font-size: 24px;
   line-height: 30px;
   color: #FFFFFF;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 h4 {
   font-family: 'TT Commons Regular', Arial, sans-serif;
@@ -89,18 +85,24 @@ h4 {
   font-size: 24px;
   line-height: 18px;
   color: #061058;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 h5 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #061058;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 h6 {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-size: 20px;
   line-height: 28px;
   color: #061058;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 p {
   font-family: 'TT Commons Regular', Arial, sans-serif;
@@ -109,6 +111,8 @@ p {
   font-size: 16px;
   line-height: 20px;
   color: #545454;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 /*UNIVERSAL*/
@@ -136,6 +140,8 @@ p {
 .navbar li {
   font-family: 'TT Commons Medium', Arial, sans-serif;
   font-size: 14px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .navbar li a {
   color: #212B36;
@@ -172,6 +178,8 @@ p {
   font-size: 28px;
   line-height: 34px;
   color: #FFFFFF;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 li.icon-01 {
 background: url('../images/Icon-01.png') no-repeat left 0px;
@@ -217,6 +225,8 @@ display: block;
   background-color: #064EFE;
   padding: 15px 0px 12px 0px;
   width: 154px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .masthead-btn:hover {
   text-decoration: underline;
@@ -232,6 +242,8 @@ display: block;
   width: 154px;
   outline-offset: -1px;
   outline: 1px solid #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .masthead-btn-transparent:hover {
   text-decoration: underline;
@@ -358,8 +370,15 @@ display: block;
   padding-top: 0px;
   padding-bottom: 10px;
   color: red;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 li.check-icon {
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
   color: #878C97;
   background: url('../images/check-icon.png') no-repeat  0 5px;
   background-size: 13px 10px;
@@ -381,6 +400,8 @@ li.check-icon {
   background-color: #FFFFFF;
   padding: 14px 20px 10px 20px;
   margin: 0px 9px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .models-behavior-btn:hover {
   text-decoration: underline;
@@ -396,6 +417,8 @@ li.check-icon {
   padding: 9px 0px;
   margin: 0px 9px;
   width: 120px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -412,6 +435,8 @@ li.check-icon {
   padding: 14px 0px 10px 0px;
   margin: 0px 9px;
   width: 120px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .contribute-btn:hover {
   text-decoration: underline;
@@ -442,6 +467,8 @@ li.check-icon {
   border: 1px solid #FFFFFF;
   width: 100px;
   padding: 9px 0px 5px 0px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .footer-btn-transparent:hover {
   text-decoration: underline;
@@ -459,18 +486,24 @@ li.check-icon {
   font-size: 18px;
   font-style: italic;
   font-weight: bold;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .footer-bold {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: bold;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .footer-small {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: bold;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .footer-line{
   width: 100%;
