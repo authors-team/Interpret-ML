@@ -39,6 +39,13 @@
     border: none;
     margin: 0px;
 }
+.section-2 .nav-tabs .active h4 {
+    color: #061058;
+}
+.gray-text{
+  color:#878C97;
+}
+
 
 
 
