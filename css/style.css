@@ -24,9 +24,10 @@ h1 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 44px;
-  line-height: 48px;
+  font-size: 52px;
+  line-height: 45px;
   color: #FFFFFF;
+  letter-spacing: 0.02em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -34,9 +35,10 @@ h2 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 34px;
-  line-height: 34px;
-  color: #FFFFFF;
+  font-size: 43px;
+  line-height: 49px;
+  color: #000000;
+  letter-spacing: 0.02em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -44,35 +46,43 @@ h3 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  color: #FFFFFF;
+  font-size: 28px;
+  line-height: 28px;
+  color: #000000;
+  letter-spacing: 0.02em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
 h4 {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: 'TT Commons Bold', Arial, sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 18px;
-  color: #061058;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+  letter-spacing: 0.02em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
 h5 {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 18px;
-  line-height: 18px;
-  color: #061058;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  letter-spacing: 0.02em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
 h6 {
-  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-family: 'TT Commons Bold', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 20px;
-  line-height: 28px;
-  color: #061058;
+  line-height: 20px;
+  color: #000000;
+  letter-spacing: 0.02em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -80,9 +90,21 @@ p {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  letter-spacing: 0.015em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+li{
+  font-family: 'TT Commons Regular', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #545454;
+  color: #878C97;
+  letter-spacing: 0.015em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -92,7 +114,7 @@ p {
   color: #061058;
 }
 .medium {
-  color: #878C97;
+  color: #5B5B5B;
 }
 .gray-text{
   color:#878C97;
@@ -169,7 +191,7 @@ p {
 }
 .masthead-btn {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
   color: #FFFFFF;
   background-color: #064EFE;
@@ -184,7 +206,7 @@ p {
 }
 .masthead-btn-transparent {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
@@ -258,6 +280,9 @@ p {
     border-bottom: 4px solid #f3565d;
     position: relative;
 }
+.section-2 .nav-tabs .active h5 {
+  color: #061058;
+}
 .section-2 .nav-tabs .nav-link {
   border: red;
 }
@@ -321,7 +346,7 @@ li.check-icon {
   font-family: 'TT Commons Regular', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   color: #878C97;
   background: url('../images/check-icon.png') no-repeat  0 5px;
@@ -339,7 +364,7 @@ li.check-icon {
 }
 .models-behavior-btn {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
   color: #064EFE;
   background-color: #FFFFFF;
@@ -354,7 +379,7 @@ li.check-icon {
 }
 .models-behavior-btn-transparent {
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
   color: #FFFFFF;
   background-color: transparent;
@@ -374,7 +399,7 @@ li.check-icon {
 }
 .contribute-btn{
   font-family: 'TT Commons Bold', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
   color: #FFFFFF;
   background-color: #064EFE;
