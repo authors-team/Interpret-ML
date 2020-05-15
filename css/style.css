@@ -522,6 +522,10 @@ li.check-icon {
   padding-top: 11px;
   margin-bottom: 0px;
 }
+.page-footer a:hover{
+  text-decoration: underline;
+  color: #FFFFFF;
+}
 
 @media (min-width: 768px) {
   .masthead-cards .card{
