@@ -142,6 +142,7 @@ li{
 
 /****NAVBAR****/
 .navbar{
+  z-index: 8000;
   background-color: white;
 }
 .navbar li {
@@ -181,6 +182,7 @@ li{
 
 /****MASTHEAD****/
 .masthead {
+  padding-top: 84px;
   padding-bottom: 260px;
 }
 .masthead-subhead {
@@ -519,7 +521,7 @@ li.check-icon {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-bottom: 160px;
+    padding-bottom: 120px;
   }
   .masthead-cards{
     position: relative;
@@ -529,6 +531,9 @@ li.check-icon {
 }
 
 @media (min-width: 1200px){
+  .masthead {
+    padding-bottom: 80px;
+  }
   .container {
     max-width: 1280px;
   }
