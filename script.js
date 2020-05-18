@@ -111,16 +111,13 @@ $(document).ready(function() {
     }
   );
 
-    $(document).click(
-        function (event) {
-            var target = $(event.target);
-            var _mobileMenuOpen = $(".navbar-collapse").hasClass("show");
-            if (_mobileMenuOpen === true && !target.hasClass("navbar-toggler")) {
-                $("button.navbar-toggler").click();
-            }
-        }
-    );
-
+     $(document).click(function (event) {
+         var clickover = $(event.target);
+         var _opened = $(".navbar-collapse").hasClass("show");
+         if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+             $(".navbar-toggler").click();
+         }
+     });
 // document ready  
 });
 
